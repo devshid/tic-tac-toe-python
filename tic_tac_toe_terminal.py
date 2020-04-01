@@ -129,28 +129,28 @@ def best_move(maxMoves, minMoves):
     return best
 
 
+def main_game():
+    running = True
+    while running:
+        print('max move --- ')
+        row = int(input('enter row : '))
+        col = int(input('enter col : '))
+        max_move = (row, col)
+        MAX_MOVES.append(max_move)
+        if Board(MAX_MOVES, MIN_MOVES).is_max_win():
+            print('max win')
+            running = False
+        else:
+            min_move = best_move(MAX_MOVES.copy(), MIN_MOVES.copy())
+            print('min move :', min_move)
+            MIN_MOVES.append(min_move)
+            if Board(MAX_MOVES, MIN_MOVES).is_min_win():
+                print('min win')
+                running = False
+        if Board(MAX_MOVES, MIN_MOVES).is_draw():
+            print('match draw')
+            running = False
+
+
 if __name__ == '__main__':
-    def main_game():
-        running = True
-        while running:
-            print('max move --- ')
-            row = int(input('enter row : '))
-            col = int(input('enter col : '))
-            max_move = (row, col)
-            MAX_MOVES.append(max_move)
-            if Board(MAX_MOVES, MIN_MOVES).is_max_win():
-                print('max win')
-                running = False
-            else:
-                min_move = best_move(MAX_MOVES.copy(), MIN_MOVES.copy())
-                print('min move :', min_move)
-                MIN_MOVES.append(min_move)
-                if Board(MAX_MOVES, MIN_MOVES).is_min_win():
-                    print('min win')
-                    running = False
-            if Board(MAX_MOVES, MIN_MOVES).is_draw():
-                print('match draw')
-                running = False
-
-
     main_game()

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfed3b18-be09-43bb-947e-545302ee3b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bfed3b18-be09-43bb-947e-545302ee3b32" name="Default Changelist" comment="some settings changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tic_tac_toe_terminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_terminal.py" afterDir="false" />
     </list>
@@ -10,6 +11,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,10 +30,83 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.test_file">
+    <configuration name="gui_add" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tic-tac-toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_add.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tic-tac-toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tic_tac_toe_terminal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tic-tac-toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic_tac_toe_terminal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_file" />
+        <item itemvalue="Python.gui_add" />
+        <item itemvalue="Python.tic_tac_toe_terminal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,6 +119,44 @@
       <option name="presentableId" value="Default" />
       <updated>1585670608499</updated>
     </task>
+    <task id="LOCAL-00001" summary="some settings changes">
+      <created>1585734502737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585734502737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some settings changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some settings changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="28" width="777" height="736" key="CommitChangelistDialog2" timestamp="1585761413944">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="0" y="28" width="777" height="736" key="CommitChangelistDialog2/0.28.1366.740@0.28.1366.740" timestamp="1585761413944" />
+    <state width="1343" height="176" key="GridCell.Tab.0.bottom" timestamp="1585762769934">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1585762769934" />
+    <state width="1343" height="176" key="GridCell.Tab.0.center" timestamp="1585762769934">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1585762769934" />
+    <state width="1343" height="176" key="GridCell.Tab.0.left" timestamp="1585762769934">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1585762769934" />
+    <state width="1343" height="176" key="GridCell.Tab.0.right" timestamp="1585762769934">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1585762769934" />
+    <state x="0" y="134" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1585734512169">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="0" y="134" width="800" height="524" key="Vcs.Push.Dialog.v2/0.28.1366.740@0.28.1366.740" timestamp="1585734512169" />
   </component>
 </project>
