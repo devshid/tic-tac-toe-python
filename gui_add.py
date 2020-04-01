@@ -126,10 +126,14 @@ def min_max(max, min, new_move, isMax):
         for bm in blank_moves:
             value = min_max(max.copy(), min.copy(), bm, isMax)
             if isMax:
-                if value > previous_value:
+                if value==1:
+                    return value
+                elif value > previous_value:
                     previous_value = value
             else:
-                if value < previous_value:
+                if value==-1:
+                    return value
+                elif value < previous_value:
                     previous_value = value
     return previous_value
 
@@ -141,7 +145,9 @@ def best_move(maxMoves, minMoves):
     best = set()
     for bm in blank_moves:
         value = min_max(maxMoves.copy(), minMoves.copy(), bm, False)
-        if value < pre_value:
+        if value == -1:
+            return bm
+        elif value < pre_value:
             best = bm
             pre_value = value
     return best
@@ -150,7 +156,7 @@ def best_move(maxMoves, minMoves):
 def main_game(row, col):
     max_move = (row, col)
     MAX_MOVES.append(max_move)
-    brd=Board(MAX_MOVES, MIN_MOVES)
+    brd = Board(MAX_MOVES, MIN_MOVES)
     if not brd.is_max_win() and not brd.is_draw():
         min_move = best_move(MAX_MOVES.copy(), MIN_MOVES.copy())
         MIN_MOVES.append(min_move)
@@ -205,7 +211,7 @@ def game_loop():
     clock = pygame.time.Clock()
 
     font = pygame.font.SysFont('ubuntumono', 120, False, False)
-    winFont=pygame.font.SysFont('ubuntumono', 80, False, False)
+    winFont = pygame.font.SysFont('ubuntumono', 80, False, False)
     xText = font.render(xMark, True, blue)
     oText = font.render(oMark, True, green)
     maxWin = winFont.render('max win', True, red)

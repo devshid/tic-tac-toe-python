@@ -108,10 +108,14 @@ def min_max(max, min, new_move, isMax):
         for bm in blank_moves:
             value = min_max(max.copy(), min.copy(), bm, isMax)
             if isMax:
-                if value > previous_value:
+                if value == 1:
+                    return value
+                elif value > previous_value:
                     previous_value = value
             else:
-                if value < previous_value:
+                if value == -1:
+                    return value
+                elif value < previous_value:
                     previous_value = value
     return previous_value
 
@@ -123,7 +127,9 @@ def best_move(maxMoves, minMoves):
     best = set()
     for bm in blank_moves:
         value = min_max(maxMoves.copy(), minMoves.copy(), bm, False)
-        if value < pre_value:
+        if value == -1:
+            return bm
+        elif value < pre_value:
             best = bm
             pre_value = value
     return best
